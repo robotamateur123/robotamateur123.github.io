@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Robot Amateur</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Robot Amateur</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY Home Security Alarm with Arduino | PIR sensor (HC-SR501), buzzer, LED</title>
+      <link>http://localhost:1313/projects/diy-home-security-alarm-with-arduino/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/diy-home-security-alarm-with-arduino/</guid>
+      <description>&lt;p&gt;This is 2nd video: DIY Home Security Alarm with Arduino | PIR sensor (HC-SR501), buzzer, LED&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🔌 Wiring Diagram: &lt;a href=&#34;../downloads/wiring_diagrams.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📹 &lt;a href=&#34;https://youtu.be/5YpVYsDrbb0&#34;&gt;Watch on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
