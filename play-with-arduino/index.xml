@@ -46,13 +46,60 @@ title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allowfullscreen&gt;
     </item>
     <item>
       <title>Video 2: DIY home security alarm with Arduino | PIR sensor (HC-SR501), buzzer, LED</title>
-      <link>https://robotamateur123.github.io/play-with-arduino/video-2-diy-home-security-alarm-with-arduino/</link>
+      <link>https://robotamateur123.github.io/play-with-arduino/video-2-diy-home-security-alarm-with-arduino-copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://robotamateur123.github.io/play-with-arduino/video-2-diy-home-security-alarm-with-arduino/</guid>
+      <guid>https://robotamateur123.github.io/play-with-arduino/video-2-diy-home-security-alarm-with-arduino-copy/</guid>
       <description>&lt;h2 id=&#34;understanding-pir-sensor-hc-sr501&#34;&gt;Understanding PIR Sensor (HC-SR501)&lt;/h2&gt;
 &lt;p&gt;In this project, you&amp;rsquo;ll learn how to build a &lt;strong&gt;DIY home security alarm&lt;/strong&gt; using the &lt;strong&gt;HC-SR501 PIR motion sensor&lt;/strong&gt;, &lt;strong&gt;Arduino&lt;/strong&gt;, &lt;strong&gt;buzzer&lt;/strong&gt;, and &lt;strong&gt;LED&lt;/strong&gt;. We&amp;rsquo;ll cover how the PIR sensor works, how to test it in standalone mode, adjust its sensitivity and timing, and finally integrate it into a complete alarm system.&lt;/p&gt;
 &lt;p&gt;Perfect for beginners, this hands-on project teaches practical electronics and coding with Arduino.&lt;/p&gt;
 &lt;p&gt;By the end, you&amp;rsquo;ll:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video 3: How to send a message and make a phone call from Arduino with SIM800L?</title>
+      <link>https://robotamateur123.github.io/play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://robotamateur123.github.io/play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino-copy/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;In this video we’ll walk you through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to make wire up SIM800L with Arduino and how to make a quick communication test?&lt;/li&gt;
+&lt;li&gt;How to send text messages using SIM800L?&lt;/li&gt;
+&lt;li&gt;How to make a phone call using SIM800L?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;📖 Learn more in the full blog: &lt;a href=&#34;https://medium.com/p/f65db28a5c60&#34;&gt;Medium Article&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;watch-the-video&#34;&gt;Watch the Video&lt;/h2&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;400&#34; src=&#34;https://www.youtube.com/embed/3MlELaIdkYQ?si=oVaViln-EI1TU18U&#34; 
+title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Video 4: DIY Cheap Home Security Alarm For Beginners | Arduino Nano, PIR sensors, and SIM800L</title>
+      <link>https://robotamateur123.github.io/play-with-arduino/video-4-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://robotamateur123.github.io/play-with-arduino/video-4-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;In this beginner-friendly tutorial, we show you how to build a DIY cheap home security alarm using an Arduino Nano, PIR sensors, and a SIM800L module. The alarm detects motion and calls you when triggered. The video covers wiring diagrams, enclosure design with Onshape, assembly, Arduino code explanation, and troubleshooting tips for the SIM800L module. Downloadable resources and a detailed list of affordable hardware components are provided.&lt;/p&gt;
+&lt;h2 id=&#34;watch-the-video&#34;&gt;Watch the Video&lt;/h2&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;400&#34; src=&#34;https://www.youtube.com/embed/5QtXKAlHNS8?si=3MNu42FTqhahRUVC&#34; 
+title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;h3 id=&#34;hardware-purchase-links&#34;&gt;Hardware Purchase Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Nano: &lt;a href=&#34;https://a.aliexpress.com/_EHjKvCZ&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SIM800L Module: &lt;a href=&#34;https://a.aliexpress.com/_Eupg3dF&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PIR Sensor: &lt;a href=&#34;https://a.aliexpress.com/_EGOVSGd&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SIM Card: Approx. $2 (local purchase)&lt;/li&gt;
+&lt;li&gt;Prototyping Board (4cm x 6cm): &lt;a href=&#34;https://a.aliexpress.com/_EIoGoC9&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Power Cables (for SIM800L and Arduino Nano): Approx. $2 each&lt;/li&gt;
+&lt;li&gt;10k Ohm Resistors Kit: &lt;a href=&#34;https://a.aliexpress.com/_EG9fLN3&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wires: &lt;a href=&#34;https://a.aliexpress.com/_EGtZok9&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3D Printing Filament: Approx. $2&lt;/li&gt;
+&lt;li&gt;Screws Set: &lt;a href=&#34;https://a.aliexpress.com/_EjIcJhx&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Soldering Pins: &lt;a href=&#34;https://a.aliexpress.com/_EGzSjrr&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jumper Wires: &lt;a href=&#34;https://a.aliexpress.com/_Ezvyai1&#34;&gt;AliExpress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;wiring-diagram&#34;&gt;Wiring Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Soldering Diagram&lt;/strong&gt;&lt;br&gt;
+&lt;img alt=&#34;vid4-soldering_diagram&#34; loading=&#34;lazy&#34; src=&#34;https://robotamateur123.github.io/play-with-arduino/images/vid4-soldering_diagram.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
