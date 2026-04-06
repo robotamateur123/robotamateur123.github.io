@@ -4,8 +4,24 @@
   <url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/diy-robotic-arm/</loc>
+  </url><url>
+    <loc>http://localhost:1313/play-with-arduino/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/diy-robotic-arm/how-i-built-a-robotic-gripper/</loc>
+  </url><url>
+    <loc>http://localhost:1313/play-with-arduino/video-1-understanding-ultrasonic-sensor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/play-with-arduino/video-2-diy-home-security-alarm-with-arduino-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/play-with-arduino/video-4-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/</loc>
   </url>
 </urlset>

@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/">
 <noscript>
     <style>
@@ -127,10 +128,67 @@
 
     </footer>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Video 1: Understanding Ultrasonic Sensor
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Understanding Ultrasonic Sensor (HC-SR04) Ultrasonic sensors measure distance using sound waves. The HC-SR04 is a common module that works by sending an ultrasonic pulse and timing how long it takes to reflect back.
+📖 Learn more in the full blog: Medium Article
+Watch the Video Ressources Hardware Purchase Links Ultrasonic sensor Arduino UNO kit Source Code #include &lt;NewPing.h&gt; #define TRIGGER_PIN 9 // Arduino pin tied to trigger pin on the ultrasonic sensor. #define ECHO_PIN 8 // Arduino pin tied to echo pin on the ultrasonic sensor. #define MAX_DISTANCE 200 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400–500cm. NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // // NewPing setup of pins and maximum distance. void setup() { Serial.begin(9600); // Open serial monitor at 9600 baud to see ping results. } void loop() { delay(50); // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings. Serial.print(&#34;Distance = &#34;); Serial.print(sonar.ping_cm()); // Send ping, get distance in cm. (0 = outside set distance range, no ping echo) Serial.println(&#34; cm&#34;); } </p>
+  </div>
+  <footer class="entry-footer">1 min</footer>
+  <a class="entry-link" aria-label="post link to Video 1: Understanding Ultrasonic Sensor" href="http://localhost:1313/play-with-arduino/video-1-understanding-ultrasonic-sensor/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Video 2: DIY home security alarm with Arduino | PIR sensor (HC-SR501), buzzer, LED
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Understanding PIR Sensor (HC-SR501) In this project, you’ll learn how to build a DIY home security alarm using the HC-SR501 PIR motion sensor, Arduino, buzzer, and LED. We’ll cover how the PIR sensor works, how to test it in standalone mode, adjust its sensitivity and timing, and finally integrate it into a complete alarm system.
+Perfect for beginners, this hands-on project teaches practical electronics and coding with Arduino.
+By the end, you’ll:
+...</p>
+  </div>
+  <footer class="entry-footer">2 min</footer>
+  <a class="entry-link" aria-label="post link to Video 2: DIY home security alarm with Arduino | PIR sensor (HC-SR501), buzzer, LED" href="http://localhost:1313/play-with-arduino/video-2-diy-home-security-alarm-with-arduino-copy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Video 3: How to send a message and make a phone call from Arduino with SIM800L?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary In this video we’ll walk you through:
+How to make wire up SIM800L with Arduino and how to make a quick communication test? How to send text messages using SIM800L? How to make a phone call using SIM800L? 📖 Learn more in the full blog: Medium Article
+Watch the Video </p>
+  </div>
+  <footer class="entry-footer">1 min</footer>
+  <a class="entry-link" aria-label="post link to Video 3: How to send a message and make a phone call from Arduino with SIM800L?" href="http://localhost:1313/play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino-copy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Video 4: DIY Cheap Home Security Alarm For Beginners | Arduino Nano, PIR sensors, and SIM800L
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary In this beginner-friendly tutorial, we show you how to build a DIY cheap home security alarm using an Arduino Nano, PIR sensors, and a SIM800L module. The alarm detects motion and calls you when triggered. The video covers wiring diagrams, enclosure design with Onshape, assembly, Arduino code explanation, and troubleshooting tips for the SIM800L module. Downloadable resources and a detailed list of affordable hardware components are provided.
+Watch the Video Resources Hardware Purchase Links Arduino Nano: AliExpress SIM800L Module: AliExpress PIR Sensor: AliExpress SIM Card: Approx. $2 (local purchase) Prototyping Board (4cm x 6cm): AliExpress Power Cables (for SIM800L and Arduino Nano): Approx. $2 each 10k Ohm Resistors Kit: AliExpress Wires: AliExpress 3D Printing Filament: Approx. $2 Screws Set: AliExpress Soldering Pins: AliExpress Jumper Wires: AliExpress Wiring Diagram Soldering Diagram
+...</p>
+  </div>
+  <footer class="entry-footer">3 min</footer>
+  <a class="entry-link" aria-label="post link to Video 4: DIY Cheap Home Security Alarm For Beginners | Arduino Nano, PIR sensors, and SIM800L" href="http://localhost:1313/play-with-arduino/video-4-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/"></a>
+</article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Robot Amateur</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">Robot Amateur</a></span> · 
 
     <span>
         Powered by

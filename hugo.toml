@@ -3,11 +3,22 @@ languageCode = 'en-us'
 title = 'Robot Amateur'
 theme = 'PaperMod'
 
+# Keep Goldmark unsafe enabled for trusted embedded HTML
+# and shortcodes that render iframes.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
 [params]
   homeInfoParams = { Title = "Welcome!", Content = "Learn Robotics & AI by Making 🚀" }
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
+  ShowToc = true
 
 [menu]
   [[menu.main]]

@@ -1,0 +1,7 @@
+{{- $id := .Get "id" -}}
+{{- $query := .Get "query" -}}
+{{- $src := printf "https://www.youtube.com/embed/%s" $id -}}
+{{- if $query -}}
+  {{- $src = printf "%s?%s" $src $query -}}
+{{- end -}}
+<iframe width="100%" height="400" src="{{ $src }}" title="YouTube video player" frameborder="0" allowfullscreen></iframe>

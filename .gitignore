@@ -1,0 +1,7 @@
+public/
+.DS_Store
+
+# Hugo cache/build artifacts
+resources/
+hugo_stats.json
+
