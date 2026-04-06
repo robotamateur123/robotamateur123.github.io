@@ -1,0 +1,24 @@
+{{- define "main" -}}
+<header class="page-header portfolio-page-header">
+  {{- if not .IsHome -}}
+  {{- partial "breadcrumbs.html" . -}}
+  {{- end -}}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description -}}
+  <p class="portfolio-lead">{{ .Description }}</p>
+  {{- end -}}
+</header>
+
+{{- if .Content -}}
+<div class="post-content portfolio-intro">
+  {{- if not (.Param "disableAnchoredHeadings") -}}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else -}}{{ .Content }}{{- end -}}
+</div>
+{{- end -}}
+
+<div class="portfolio-root" data-portfolio-root>
+{{- partial "portfolio_filter.html" . -}}
+{{- partial "portfolio_grid.html" . -}}
+</div>
+{{- end -}}

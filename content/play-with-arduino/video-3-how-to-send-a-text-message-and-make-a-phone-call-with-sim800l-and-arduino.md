@@ -1,6 +1,12 @@
 ---
 title: "Video 3: How to send a message and make a phone call from Arduino with SIM800L?"
+date: 2024-05-20
+description: "Wire the SIM800L to Arduino, run communication tests, send SMS, and place a call from your sketch."
 toc: true
+params:
+  youtube: "3MlELaIdkYQ"
+aliases:
+  - /play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino-copy/
 ---
 
 ## Summary

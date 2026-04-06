@@ -1,6 +1,12 @@
 ---
 title: "Video 2: DIY home security alarm with Arduino | PIR sensor (HC-SR501), buzzer, LED"
+date: 2024-04-15
+description: "Motion-triggered alarm with PIR HC-SR501, buzzer, and LED — wiring diagrams, PDF, and full Arduino code."
 toc: true
+params:
+  youtube: "5YpVYsDrbb0"
+aliases:
+  - /play-with-arduino/video-2-diy-home-security-alarm-with-arduino-copy/
 ---
 
 ## Understanding PIR Sensor (HC-SR501)
@@ -19,7 +25,7 @@ Includes full **wiring diagrams**, **source code**, and recommended **hardware l
 ## Watch the Video
 {{< youtube-responsive id="5YpVYsDrbb0" >}}
 
-## Ressources
+## Resources
 ### Hardware Purchase Links 
 1. PIR sensor
 2. Arduino UNO kit

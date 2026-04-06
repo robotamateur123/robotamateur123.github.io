@@ -1,6 +1,10 @@
 ---
 title: "Video 4: DIY Cheap Home Security Alarm For Beginners | Arduino Nano, PIR sensors, and SIM800L"
+date: 2024-07-10
+description: "Nano-based alarm with PIR and SIM800L — calls you on motion. Wiring, enclosure notes, and annotated code."
 toc: true
+params:
+  youtube: "5QtXKAlHNS8"
 ---
 
 ## Summary

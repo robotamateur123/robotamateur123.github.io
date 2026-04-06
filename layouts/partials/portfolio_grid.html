@@ -1,0 +1,54 @@
+{{- $pages := slice -}}
+{{- if or .IsHome (eq .Section "projects") -}}
+  {{- $sections := site.Params.portfolioSections | default (slice "play-with-arduino" "DIY-robotic-arm") -}}
+  {{- range $sections -}}
+    {{- with site.GetPage "section" . -}}
+      {{- range .RegularPages -}}
+        {{- $pages = $pages | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- else if .Section -}}
+  {{- $pages = where site.RegularPages "Section" .Section -}}
+{{- end -}}
+{{- $pages = sort $pages "Date" "desc" -}}
+<div class="portfolio-grid" aria-label="Project portfolio">
+  {{- range $pages -}}
+    {{- $yt := .Params.youtube -}}
+    {{- $cover := .Params.cover.image -}}
+    {{- $thumb := "" -}}
+    {{- if $cover -}}
+      {{- $thumb = $cover | relURL -}}
+    {{- else if $yt -}}
+      {{- $thumb = printf "https://img.youtube.com/vi/%s/hqdefault.jpg" $yt -}}
+    {{- end -}}
+    <article class="portfolio-card" data-playlist="{{ .Section }}">
+      <a class="portfolio-card__link" href="{{ .RelPermalink }}" aria-label="{{ .Title | plainify }} — view project"></a>
+      <div class="portfolio-card__media">
+        {{- if $thumb -}}
+          <img class="portfolio-card__img" src="{{ $thumb }}" alt="{{ .Params.cover.alt | default .Title | plainify }}" loading="lazy" width="480" height="360" />
+        {{- else -}}
+          <div class="portfolio-card__placeholder" aria-hidden="true">
+            <span class="portfolio-card__placeholder-icon">{{ partial "portfolio_placeholder_icon.html" . }}</span>
+          </div>
+        {{- end -}}
+        {{- if $yt -}}
+          <span class="portfolio-card__play" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+        {{- end -}}
+      </div>
+      <div class="portfolio-card__body">
+        <h2 class="portfolio-card__title">{{ .Title }}</h2>
+        {{- with .Description -}}
+          <p class="portfolio-card__desc">{{ . }}</p>
+        {{- else -}}
+          <p class="portfolio-card__desc">{{ .Summary | plainify | htmlUnescape | truncate 140 }}</p>
+        {{- end -}}
+        {{- if .Date -}}
+          <time class="portfolio-card__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+        {{- end -}}
+      </div>
+    </article>
+  {{- end -}}
+</div>

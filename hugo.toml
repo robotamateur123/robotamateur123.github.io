@@ -14,13 +14,18 @@ theme = 'PaperMod'
   home = ['HTML', 'RSS', 'JSON']
 
 [params]
-  homeInfoParams = { Title = "Welcome!", Content = "Learn Robotics & AI by Making 🚀" }
+  portfolioSections = ['play-with-arduino', 'DIY-robotic-arm']
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowToc = true
 
 [menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 0
+
   [[menu.main]]
     name = "Projects"
     url = "/projects/"

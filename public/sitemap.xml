@@ -2,26 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://robotamateur123.github.io/play-with-arduino/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/diy-robotic-arm/</loc>
+    <loc>https://robotamateur123.github.io/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/play-with-arduino/</loc>
+    <loc>https://robotamateur123.github.io/play-with-arduino/video-4-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://robotamateur123.github.io/play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/</loc>
+    <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://robotamateur123.github.io/play-with-arduino/video-2-diy-home-security-alarm-with-arduino/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://robotamateur123.github.io/play-with-arduino/video-1-understanding-ultrasonic-sensor/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/diy-robotic-arm/how-i-built-a-robotic-gripper/</loc>
+    <loc>https://robotamateur123.github.io/diy-robotic-arm/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/play-with-arduino/video-1-understanding-ultrasonic-sensor/</loc>
+    <loc>https://robotamateur123.github.io/diy-robotic-arm/how-i-built-a-robotic-gripper/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/play-with-arduino/video-2-diy-home-security-alarm-with-arduino-copy/</loc>
+    <loc>https://robotamateur123.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/play-with-arduino/video-3-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino-copy/</loc>
+    <loc>https://robotamateur123.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/play-with-arduino/video-4-how-to-send-a-text-message-and-make-a-phone-call-with-sim800l-and-arduino/</loc>
+    <loc>https://robotamateur123.github.io/projects/</loc>
+  </url><url>
+    <loc>https://robotamateur123.github.io/tags/</loc>
   </url>
 </urlset>

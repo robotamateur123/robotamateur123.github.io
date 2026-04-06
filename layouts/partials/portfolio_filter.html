@@ -1,0 +1,26 @@
+{{- if or .IsHome (eq .Section "projects") -}}
+{{- $allHref := site.Home.RelPermalink -}}
+{{- if eq .Section "projects" -}}
+  {{- $allHref = .RelPermalink -}}
+{{- end -}}
+<nav class="portfolio-filters" aria-label="Filter projects by playlist">
+  <span class="portfolio-filters__label" id="portfolio-filters-label">Playlist</span>
+  <div class="portfolio-filters__buttons" role="group" aria-labelledby="portfolio-filters-label">
+    <a
+      href="{{ $allHref }}"
+      class="portfolio-filter-btn{{ if or .IsHome (eq .Section "projects") }} is-active{{ end }}"
+      {{- if or .IsHome (eq .Section "projects") }} aria-current="page"{{ end -}}
+    >All</a>
+    {{- range site.Params.portfolioSections -}}
+      {{- with site.GetPage "section" . -}}
+        {{- $active := eq $.RelPermalink .RelPermalink -}}
+        <a
+          href="{{ .RelPermalink }}"
+          class="portfolio-filter-btn{{ if $active }} is-active{{ end }}"
+          {{- if $active }} aria-current="page"{{ end -}}
+        >{{ .Title }}</a>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</nav>
+{{- end -}}

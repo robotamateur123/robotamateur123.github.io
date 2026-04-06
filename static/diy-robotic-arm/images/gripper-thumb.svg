@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none">
+  <rect width="480" height="300" fill="#1a1a1e"/>
+  <g stroke="#6b7280" stroke-width="2" stroke-linecap="round">
+    <path d="M120 200V100h80v100M200 150h80M280 150v50M280 120c0-22 18-40 40-40s40 18 40 40v80"/>
+    <circle cx="320" cy="110" r="28" fill="#374151"/>
+  </g>
+  <text x="240" y="260" text-anchor="middle" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="14">DIY gripper</text>
+</svg>

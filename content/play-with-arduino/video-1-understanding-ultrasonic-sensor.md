@@ -1,6 +1,10 @@
 ---
 title: "Video 1: Understanding Ultrasonic Sensor"
+date: 2024-03-01
+description: "HC-SR04 ultrasonic distance sensing — how it works, wiring, and a ready-to-run Arduino sketch."
 toc: true
+params:
+  youtube: "hqQZ0IiPRmo"
 ---
 ## Understanding Ultrasonic Sensor (HC-SR04)
 
@@ -11,7 +15,7 @@ Ultrasonic sensors measure distance using sound waves. The HC-SR04 is a common m
 ## Watch the Video
 {{< youtube-responsive id="hqQZ0IiPRmo" >}}
 
-## Ressources
+## Resources
 ### Hardware Purchase Links 
 1. Ultrasonic sensor
 2. Arduino UNO kit

@@ -1,8 +1,16 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
+description = 'One-line summary for portfolio cards.'
 draft = true
 toc = true
+
+[params]
+youtube = 'YOUTUBE_VIDEO_ID'
+
+[cover]
+image = '/play-with-arduino/images/your-thumb.jpg'
+alt = 'Project thumbnail'
 +++
 
 ## Summary
