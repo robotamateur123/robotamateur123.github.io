@@ -1,18 +1,24 @@
 ---
-title: "Video 1 - I built a simple 3D-Printed Robot Gripper w/ Raspberry Pi (Beginner Friendly!)"
+title: "Video 1 - I built a simple 3D-Printed Robot Gripper with Raspberry Pi (Beginner Friendly!)"
 date: 2026-04-06
 description: "Robotic gripper build materials — resources and video links; Wiring diagram and code."
 draft: false
-cover:
-  image: "/diy-robotic-arm/images/gripper-thumb.svg"
-  alt: "Robotic gripper project placeholder illustration"
+params:
+  youtube: "c-ZyGVxRe7U"
 ---
 
 ## Resources
 
-- 🔌 Wiring diagram: [Open full image](/diy-robotic-arm/images/Vid5-WiringDiagram.png) 
+- 🔌 Wiring diagram: [Open full image](/diy-robotic-arm/images/Vid5-WiringDiagram.png)
+- 🧩 **3D-printed parts (CAD / STL):**
+  - [Onshape — open in browser, then right-click a part → **Export**](https://cad.onshape.com/documents/a982843b6e5d3aab64560b76/w/64c56c1cb32ccc51f182beda/e/5062ba00eacdf3958d4a41df?renderMode=0&uiState=69d3b85381f4fa9bdad34fce)
+  - [Google Drive — direct download (folder)](https://drive.google.com/drive/folders/1kBx7XS37JYXXpA-7wwmAKh1xhRelPrf9?usp=sharing)
 - 💾 Code: see **Source code** below.
-- 📹 [Watch on YouTube](https://www.youtube.com/@robotamateur123/videos)
+- 📹 [Watch on YouTube](https://youtu.be/c-ZyGVxRe7U)
+
+## Watch the Video
+
+{{< youtube-responsive id="c-ZyGVxRe7U" >}}
 
 ### Wiring diagram
 
