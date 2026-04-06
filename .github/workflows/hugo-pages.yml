@@ -1,0 +1,50 @@
+# Builds Hugo on push to main/master, then commits the site to branch `gh-pages`.
+# Use this when GitHub Pages is set to "Deploy from branch" → gh-pages (see repo Settings → Pages).
+#
+# Prerequisite: this repository must have a `main` (or `master`) branch containing Hugo
+# source (hugo.toml, content/, layouts/, static/, themes/ as submodule). The `gh-pages`
+# branch should only hold the built HTML (updated automatically by this workflow).
+name: Build Hugo and deploy to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.148.1
+    steps:
+      - name: Checkout (with theme submodule)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Install Hugo Extended
+        run: |
+          wget -q -O /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i /tmp/hugo.deb
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - name: Push to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
